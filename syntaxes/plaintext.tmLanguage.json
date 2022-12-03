@@ -1,0 +1,18 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "kangxi-radicals",
+	"patterns": [
+		{
+			"include": "#kangxi-radicals"
+		}
+	],
+	"repository": {
+		"kangxi-radicals": {
+			"patterns": [{
+				"name": "invalid",
+				"match": "[\u2f00-\u2fd5]"
+			}]
+		}
+	},
+	"scopeName": "source.txt"
+}
